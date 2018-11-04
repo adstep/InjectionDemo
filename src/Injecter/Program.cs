@@ -11,7 +11,7 @@ namespace Injecter
     {
         static void Main(string[] args)
         {
-            var isSharp = false;
+            var isSharp = true;
             var processName = "Code";
 
             var exampleExe = "Example.exe";

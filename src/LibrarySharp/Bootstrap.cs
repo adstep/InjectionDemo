@@ -12,7 +12,6 @@ namespace LibrarySharp
         {
             var process = Process.GetCurrentProcess();
             MessageBox.Show($"Current Process: {process.Id} Args: {args}", "LibrarySharp");
-            //MessageBox.Show($"BootstrapperSharp: Current Process: {process.Id} Args: {args}", "BootstrapperSharp");
         }
     }
 }
