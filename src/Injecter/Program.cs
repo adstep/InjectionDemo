@@ -12,7 +12,6 @@ namespace Injecter
         static void Main(string[] args)
         {
             var isSharp = true;
-            var processName = "Code";
 
             var exampleExe = "Example.exe";
 
@@ -66,7 +65,6 @@ namespace Injecter
 
             var localModuleHandle = Native.LoadLibrary(moduleFileName);
 
-            var moduleNameWithoutExtension = Path.GetFileNameWithoutExtension(moduleName);
             var localFn = NativeExtensions.GetModuleFunction(moduleName, functionName);
 
             if (localFn == 0)
