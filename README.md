@@ -17,3 +17,6 @@ The project contains an Example console application to be injected into and an I
 
 If you see build error 'Error The RGiesecke.DllExport.MSBuild.DllExportAppDomainIsolatedTask task could not be loaded from the assembly' then install ```Microsoft .NET Framework 3.5```.
 
+## License
+
+MIT
